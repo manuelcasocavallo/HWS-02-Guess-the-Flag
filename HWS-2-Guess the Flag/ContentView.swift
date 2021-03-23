@@ -67,7 +67,7 @@ struct ContentView: View {
                     })
                     .padding(.vertical, 15)
                     .padding(.horizontal, 40)
-                    .background(Color.blue)
+                    .background(Color.gray)
                     .cornerRadius(15)
                     .shadow(color: .white, radius: 4)
                     .alert(isPresented: $showingReset) {
@@ -105,6 +105,7 @@ struct ContentView: View {
     func reset() {
         score = 0
         numberOfTaps = 0
+        askQuestion()
     }
     
 }
