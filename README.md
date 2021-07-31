@@ -1,4 +1,4 @@
-# HWS-02-Guess-the-Flag
+Guess the Flag
 
 ### Hacking with SwiftUI - Project 2
 
